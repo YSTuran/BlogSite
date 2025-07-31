@@ -32,7 +32,7 @@
         android:label="fragment_gonderi"
         tools:layout="@layout/fragment_gonderi" >
         <action
-            android:id="@+id/action_gonderiFragment_self"
+            android:id="@+id/action_gonderiFragment_to_feedFragment"
             app:destination="@id/feedFragment" />
     </fragment>
 </navigation>

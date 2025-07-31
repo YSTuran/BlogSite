@@ -25,7 +25,7 @@ class GonderiAdapter(private val gonderiListesi : ArrayList<Gonderi>) : Recycler
     override fun onBindViewHolder(holder: GonderiHolder, position: Int) {
         holder.binding.recyclerEmailText.text =gonderiListesi[position].email
         holder.binding.recyclerBaslikText.text =gonderiListesi[position].baslik
-        holder.binding.recyclerCommentText.text =gonderiListesi[position].yorum
+        holder.binding.recyclerCommentText.text =gonderiListesi[position].metin
         Picasso.get().load(gonderiListesi[position].gorselUrl).into(holder.binding.recyclerImageview)
     }
 }
