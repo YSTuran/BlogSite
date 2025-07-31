@@ -14,7 +14,7 @@
         android:orientation="vertical"
         android:padding="12dp">
 
-        <!-- Email -->
+
         <TextView
             android:id="@+id/recyclerEmailText"
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:ellipsize="end"
             android:singleLine="true" />
 
-        <!-- Başlık -->
+
         <TextView
             android:id="@+id/recyclerBaslikText"
             android:layout_width="match_parent"
@@ -36,7 +36,7 @@
             android:textStyle="bold"
             android:textSize="18sp" />
 
-        <!-- Görsel -->
+
         <ImageView
             android:id="@+id/recyclerImageview"
             android:layout_width="match_parent"
@@ -47,7 +47,7 @@
             android:contentDescription="Gönderi Görseli"
             android:clipToOutline="true" />
 
-        <!-- Yorum -->
+
         <TextView
             android:id="@+id/recyclerCommentText"
             android:layout_width="match_parent"

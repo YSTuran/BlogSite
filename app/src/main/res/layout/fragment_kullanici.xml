@@ -14,8 +14,11 @@
         android:ems="10"
         android:hint="E-mail Adresinizi Girin"
         android:inputType="textEmailAddress"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="181dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
 
     <EditText
         android:id="@+id/sifreEditText"
@@ -35,6 +38,7 @@
         android:layout_width="125dp"
         android:layout_height="63dp"
         android:layout_marginStart="72dp"
+        android:onClick="girisYap"
         android:text="Giriş Yap"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,10 +51,8 @@
         android:id="@+id/kayitButton"
         android:layout_width="125dp"
         android:layout_height="63dp"
+        android:onClick="kaydol"
         android:text="Kaydol"
-        android:textColor="@color/white"
-        android:textColorHint="#EC407A"
-        android:textColorLink="#66BB6A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.16"

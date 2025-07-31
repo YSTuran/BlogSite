@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "750215861711",
+    "project_id": "blogsite-55062",
+    "storage_bucket": "blogsite-55062.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750215861711:android:acb1a83863f06ad8342eba",
+        "android_client_info": {
+          "package_name": "yusufs.turan.blogsite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrw1wjgIRmg-1CZ1uIjNBv82Pnt54NfPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
